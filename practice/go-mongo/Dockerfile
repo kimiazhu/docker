@@ -20,8 +20,8 @@ RUN mkdir -p /data/db
 RUN update-rc.d mongod defaults 01
 
 # Download source code
-# RUN mkdir -p /go/src/golang-mongo-sample
-# RUN cp -r . /go/src/golang-mongo-sample && go install
+# RUN mkdir -p /go/src/go-mongo
+# RUN cp -r . /go/src/go-mongo && go install
 RUN cd /go/src/app && go install
 
 EXPOSE 80

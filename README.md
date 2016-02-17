@@ -1,5 +1,3 @@
-#go-mongo
+# Docker Practice
 --
-This is a Golang & MongoDB project using docker
-
-Support go version >= go1.2
+since 2016-02-17
